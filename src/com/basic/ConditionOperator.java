@@ -33,6 +33,22 @@ public class ConditionOperator {
 		else {
 			System.out.println("R is greater OK");
 		}
+		double avg=45;
+		if(avg >= 70) {
+			System.out.println("Distiction");
+		}
+		else if (avg >= 60) {
+			System.out.println("First Class");
+		}
+		else if (avg >= 50) {
+			System.out.println("Second Class");
+		}
+		else if (avg >= 40) {
+			System.out.println("Third Class");
+		}
+		else {
+			System.out.println("Fail");
+		}
 	}
 
 }
