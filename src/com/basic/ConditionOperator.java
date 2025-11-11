@@ -31,7 +31,7 @@ public class ConditionOperator {
 			System.out.println("Q is greater");
 		}
 		else {
-			System.out.println("R is greater");
+			System.out.println("R is greater OK");
 		}
 	}
 
