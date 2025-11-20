@@ -1,10 +1,7 @@
 package com.oops;
 
-import java.util.Scanner;
-
 public class SelectionSort {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		int[] b= {2,5,1,3,4};
 		for (int i = 0; i < b.length; i++) {
 			for (int j = i+1; j < b.length; j++) {
