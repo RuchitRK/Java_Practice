@@ -8,6 +8,7 @@ import java.util.Scanner;
  * 12
  */
 public class JaggedArray {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		int nrow;
 		Scanner sc=new Scanner(System.in);
