@@ -14,7 +14,7 @@ class Employee{
 	}
 }
 
-class Insentives extends Employee{
+class Incentives extends Employee{
 	double overtime=6787;
 	public void show() {
 		System.out.println("ID is: " +id);
@@ -25,7 +25,7 @@ class Insentives extends Employee{
 
 public class IneritanceDemo {
 	public static void main(String[] args) {
-		Insentives in=new Insentives();
+		Incentives in=new Incentives();
 		in.setData();
 		in.show();
 	}
