@@ -16,6 +16,6 @@ public class ArraySingleDiem {
 			System.out.println(a[i]);
 		}
 		System.out.println(b[0]);
+		sc.close();
 	}
-
 }
