@@ -30,5 +30,7 @@ public static void main(String[] args) {
 	System.out.println("Enter Long String: ");
 	str2=sc1.nextLine();
 	System.out.println(str2);
+	sc.close();
+	sc1.close();
 }
 }
